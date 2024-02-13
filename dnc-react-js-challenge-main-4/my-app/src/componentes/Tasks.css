@@ -1,0 +1,26 @@
+.options{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px; /* Ajuste conforme necessário para definir a posição vertical dos elementos */
+}
+  
+ .container{
+    display: flex;
+    flex-direction: row; /* Para manter os elementos na mesma linha */
+    justify-content: space-between;
+    align-items: center;
+    width: 50%; /* Defina a largura do contêiner conforme necessário */
+    margin: auto;
+}
+  
+.container p{
+    padding: 10px;
+}
+
+hr{
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    max-width: 900px; /* Defina a largura máxima desejada */
+    margin-top: 10px; /* Adiciona um espaço entre os elementos e o hr */
+    margin-left: auto; /* Alinha o hr à direita */
+    margin-right: auto;
+}

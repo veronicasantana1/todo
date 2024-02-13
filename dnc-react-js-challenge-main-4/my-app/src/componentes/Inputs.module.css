@@ -1,0 +1,25 @@
+.newtask{
+        display: flex;
+        flex-direction: row; /* Para manter os elementos na mesma linha */
+        justify-content: space-between;
+        align-items: center;
+        width: 50%; /* Defina a largura do contêiner conforme necessário */
+        margin: auto;
+        padding: 10px;
+    }
+
+    .newtask input{
+        appearance: none;
+        border: none;
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-size: inherit;
+        background-color: transparent;
+        color: inherit;
+        outline: none; /* Removendo a borda de foco */
+    }
+
+    .newtask img{
+        margin-right: 40px;
+    }

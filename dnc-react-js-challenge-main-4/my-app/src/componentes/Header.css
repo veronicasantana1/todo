@@ -1,0 +1,23 @@
+.Header{
+    background-color: #0C70F2;
+    height: 74px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Header p{
+    padding: 35px;
+}
+
+.Task.clicado{
+    background-color: #ffffff;
+    color: #0C70F2;
+    margin-top: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+}
+
+.Text.clicado{
+    margin-top: -20px;
+}
